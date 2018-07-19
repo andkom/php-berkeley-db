@@ -1,0 +1,44 @@
+{
+  "name": "andkom/php-berkeley-db",
+  "description": "A simple Berkeley DB library for PHP.",
+  "type": "library",
+  "keywords": [
+    "berkeley",
+    "database",
+    "db",
+    "db4"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Andrei Komarov"
+    }
+  ],
+  "require": {
+    "php": "^7.0",
+    "ext-db4": ">=4.0"
+  },
+  "require-dev": {
+    "phpunit/phpunit": ">=5.0"
+  },
+  "autoload": {
+    "psr-4": {
+      "AndKom\\PhpBerkeleyDb\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "AndKom\\PhpBerkeleyDb\\Tests\\": "tests/"
+    }
+  },
+  "extra": {
+    "laravel": {
+      "providers": [
+        "AndKom\\PhpBerkeleyDb\\ServiceProvider"
+      ],
+      "aliases": {
+        "BDB": "AndKom\\PhpBerkeleyDb\\Facade\\BDB"
+      }
+    }
+  }
+}
