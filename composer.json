@@ -16,7 +16,7 @@
   ],
   "require": {
     "php": "^7.0",
-    "ext-db4": ">=4.0"
+    "ext-db4": "^0.9"
   },
   "require-dev": {
     "phpunit/phpunit": ">=5.0"
