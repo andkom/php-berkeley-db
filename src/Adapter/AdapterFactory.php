@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace AndKom\PhpBerkeleyDb\Adapter;
+namespace AndKom\BerkeleyDb\Adapter;
 
 /**
  * Class AdapterFactory
- * @package AndKom\PhpBerkeleyDb\Adapter
+ * @package AndKom\BerkeleyDb\Adapter
  */
 class AdapterFactory
 {

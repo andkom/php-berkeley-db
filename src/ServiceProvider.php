@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace AndKom\PhpBerkeleyDb;
+namespace AndKom\BerkeleyDb;
 
 /**
  * Class ServiceProvider
- * @package AndKom\PhpBerkeleyDb
+ * @package AndKom\BerkeleyDb
  */
 class ServiceProvider extends \Illuminate\Support\ServiceProvider
 {

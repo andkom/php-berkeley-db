@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace AndKom\PhpBerkeleyDb\Tests;
+namespace AndKom\BerkeleyDb\Tests;
 
-use AndKom\PhpBerkeleyDb\Adapter\AdapterInterface;
+use AndKom\BerkeleyDb\Adapter\AdapterInterface;
 use PHPUnit\Framework\TestCase;
 
 abstract class AdapterAbstractTest extends TestCase

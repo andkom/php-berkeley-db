@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace AndKom\PhpBerkeleyDb\Adapter;
+namespace AndKom\BerkeleyDb\Adapter;
 
-use AndKom\PhpBerkeleyDb\Exception;
+use AndKom\BerkeleyDb\Exception;
 
 // check whether php_db4 extension is loaded
 if (!class_exists('\Db4')) {
@@ -18,7 +18,7 @@ if (!defined('DB_BTREE')) {
 
 /**
  * Wrapper for ext-db4
- * @package AndKom\PhpBerkeleyDb\Adapter
+ * @package AndKom\BerkeleyDb\Adapter
  */
 class PhpDb4Adapter extends AbstractAdapter
 {

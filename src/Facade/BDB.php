@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace AndKom\PhpBerkeleyDb\Facade;
+namespace AndKom\BerkeleyDb\Facade;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
  * Class BDB
- * @package AndKom\PhpBerkeleyDb\Facade
+ * @package AndKom\BerkeleyDb\Facade
  */
 class BDB extends Facade
 {

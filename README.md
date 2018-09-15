@@ -59,7 +59,7 @@ composer install andkom/php-berkeley-db
 **Create instance:**
 
 ```PHP
-use AndKom\PhpBerkeleyDb\Adapter\AdapterFactory;
+use AndKom\BerkeleyDb\Adapter\AdapterFactory;
 
 $adapter = AdapterFactory::create(); // use first available adapter
 $adapter = AdapterFactory::create("phpdb4"); // use phpdb4 adapter
@@ -139,7 +139,7 @@ foreach ($adapter->read() as $key => $value) {
 **Publish configuration to app config:**
 
 ```bash
-./artisan vendor:publish --provider=AndKom\\PhpBerkeleyDb\\ServiceProvider
+./artisan vendor:publish --provider=AndKom\\BerkeleyDb\\ServiceProvider
 ```
 
 **Edit app/config/berkeleydb.php:**

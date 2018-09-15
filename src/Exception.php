@@ -2,11 +2,11 @@
 
 declare(strict_types=1);
 
-namespace AndKom\PhpBerkeleyDb;
+namespace AndKom\BerkeleyDb;
 
 /**
  * Class Exception
- * @package AndKom\PhpBerkeleyDb
+ * @package AndKom\BerkeleyDb
  */
 class Exception extends \Exception
 {

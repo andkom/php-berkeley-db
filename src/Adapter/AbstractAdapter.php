@@ -2,13 +2,13 @@
 
 declare(strict_types=1);
 
-namespace AndKom\PhpBerkeleyDb\Adapter;
+namespace AndKom\BerkeleyDb\Adapter;
 
-use AndKom\PhpBerkeleyDb\Exception;
+use AndKom\BerkeleyDb\Exception;
 
 /**
  * Class AbstractAdapter
- * @package AndKom\PhpBerkeleyDb\Adapter
+ * @package AndKom\BerkeleyDb\Adapter
  */
 abstract class AbstractAdapter implements AdapterInterface
 {

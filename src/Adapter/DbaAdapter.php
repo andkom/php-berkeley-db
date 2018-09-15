@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace AndKom\PhpBerkeleyDb\Adapter;
+namespace AndKom\BerkeleyDb\Adapter;
 
-use AndKom\PhpBerkeleyDb\Exception;
+use AndKom\BerkeleyDb\Exception;
 
 // check whether dba extension is loaded
 if (!extension_loaded('dba')) {
@@ -18,7 +18,7 @@ if (!in_array('db4', dba_handlers())) {
 
 /**
  * Wrapper for db4 DBA handler
- * @package AndKom\PhpBerkeleyDb\Adapter
+ * @package AndKom\BerkeleyDb\Adapter
  */
 class DbaAdapter extends AbstractAdapter
 {

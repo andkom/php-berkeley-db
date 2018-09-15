@@ -23,21 +23,21 @@
   },
   "autoload": {
     "psr-4": {
-      "AndKom\\PhpBerkeleyDb\\": "src/"
+      "AndKom\\BerkeleyDb\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "AndKom\\PhpBerkeleyDb\\Tests\\": "tests/"
+      "AndKom\\BerkeleyDb\\Tests\\": "tests/"
     }
   },
   "extra": {
     "laravel": {
       "providers": [
-        "AndKom\\PhpBerkeleyDb\\ServiceProvider"
+        "AndKom\\BerkeleyDb\\ServiceProvider"
       ],
       "aliases": {
-        "BDB": "AndKom\\PhpBerkeleyDb\\Facade\\BDB"
+        "BDB": "AndKom\\BerkeleyDb\\Facade\\BDB"
       }
     }
   }

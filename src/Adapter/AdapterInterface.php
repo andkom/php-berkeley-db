@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace AndKom\PhpBerkeleyDb\Adapter;
+namespace AndKom\BerkeleyDb\Adapter;
 
-use AndKom\PhpBerkeleyDb\Exception;
+use AndKom\BerkeleyDb\Exception;
 
 /**
  * Interface AdapterInterface
  *
- * @package AndKom\PhpBerkeleyDb\Adapter
+ * @package AndKom\BerkeleyDb\Adapter
  */
 interface AdapterInterface
 {

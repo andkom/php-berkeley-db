@@ -2,14 +2,14 @@
 
 declare(strict_types=1);
 
-namespace AndKom\PhpBerkeleyDb;
+namespace AndKom\BerkeleyDb;
 
-use AndKom\PhpBerkeleyDb\Adapter\AdapterFactory;
-use AndKom\PhpBerkeleyDb\Adapter\AdapterInterface;
+use AndKom\BerkeleyDb\Adapter\AdapterFactory;
+use AndKom\BerkeleyDb\Adapter\AdapterInterface;
 
 /**
  * Class Manager
- * @package AndKom\PhpBerkeleyDb
+ * @package AndKom\BerkeleyDb
  */
 class Manager
 {
